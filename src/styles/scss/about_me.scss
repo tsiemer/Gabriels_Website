@@ -1,0 +1,53 @@
+$about_me_background_color:whitesmoke;
+
+$description_color:#555555;
+$description_size:15px;
+
+$subtitle_color:#333;
+
+.About_Me {
+    background-color:$about_me_background_color;
+    min-height:650px;
+    padding-bottom:50px;
+
+
+    .Content_Block {
+        max-width:60vw;
+        max-height:600px;
+        margin:0px 20vw 0px 20vw;
+        padding:15px 0px;
+        display:flex;
+        flex-wrap:wrap;
+        
+
+        .info_section {
+            flex:2;
+        }
+
+        .header_link {
+            font-size:24px;
+            line-height:35px;
+            text-align:left;
+        }
+
+        .subtitle {
+            color: $subtitle_color;
+            text-align:left;
+        }
+
+        .description{
+            color:$description_color;
+            font-size:$description_size;
+            line-height: 22px;
+            text-align:left;
+            max-width:38vw;
+        }
+
+        .content_block_image{
+            flex:1;
+            width:20vw;
+            height:20vw;
+            margin-right:40px;
+        }
+    }
+}

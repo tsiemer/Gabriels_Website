@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.Main {
+  z-index: inherit 1010;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center; }
+
+.gabriel_Background {
+  background-image: url("../../images/gabriel_head_shot.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.blue_Background {
+  background-image: url("../../images/blue_background.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.title {
+  display: inline-flex;
+  margin-top: 80px; }
+
+.big-title {
+  color: #333;
+  padding: 5px;
+  font-weight: bolder; }
+
+.secondary-big-title {
+  color: whitesmoke;
+  padding: 5px;
+  font-weight: bolder; }
+
+.main_hr {
+  width: 70px;
+  background-color: #333;
+  color: #333;
+  border: solid #333 0.7px;
+  margin-top: 22px; }
+
+.secondary_hr {
+  width: 70px;
+  background-color: whitesmoke;
+  color: whitesmoke;
+  border: solid whitesmoke 0.7px;
+  margin-top: 22px; }

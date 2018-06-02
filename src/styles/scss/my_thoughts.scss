@@ -1,0 +1,85 @@
+$my_thoughts_section_color:#EEEEEE;
+$my_thoughts_section_height:600px;
+$description_color:#555555;
+$description_size:15px;
+
+
+@media screen and (max-width: 750px) {
+    .Content_Block {
+        max-width:60vw;
+        max-height:auto;
+        margin:0px 20vw 0px 20vw;
+        padding:15px 0px;
+        display:flex;
+        flex-wrap:wrap;
+
+        .info_section {
+            flex:2;
+        }
+
+        .header_link {
+            font-size:24px;
+            line-height:35px;
+            text-align:left;
+        }
+
+        .description{
+            color:$description_color;
+            font-size:$description_size;
+            line-height: 22px;
+            text-align:left;
+            max-width:40vw;
+        }
+
+        .content_block_image{
+            flex:1;
+            width:40vw;
+            height:40vw;
+        }
+    }
+}
+
+.MyThoughts {
+    width:100vw;
+    min-height:$my_thoughts_section_height;
+    background-color: $my_thoughts_section_color;
+    padding-bottom:50px;
+
+    .my_thoughts_content {
+        display:flex;
+    }
+
+    .Content_Block {
+        max-width:60vw;
+        max-height:600px;
+        margin:0px 20vw 0px 20vw;
+        padding:15px 0px;
+        display:flex;
+        flex-wrap:wrap;
+
+        .info_section {
+            flex:2;
+        }
+
+        .header_link {
+            font-size:24px;
+            line-height:35px;
+            text-align:left;
+        }
+
+        .description{
+            color:$description_color;
+            font-size:$description_size;
+            line-height: 22px;
+            text-align:left;
+            max-width:38vw;
+        }
+
+        .content_block_image{
+            flex:1;
+            width:20vw;
+            height:20vw;
+        }
+    }
+    
+}

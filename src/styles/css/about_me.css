@@ -1,0 +1,31 @@
+.About_Me {
+  background-color: whitesmoke;
+  min-height: 650px;
+  padding-bottom: 50px; }
+  .About_Me .Content_Block {
+    max-width: 60vw;
+    max-height: 600px;
+    margin: 0px 20vw 0px 20vw;
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap; }
+    .About_Me .Content_Block .info_section {
+      flex: 2; }
+    .About_Me .Content_Block .header_link {
+      font-size: 24px;
+      line-height: 35px;
+      text-align: left; }
+    .About_Me .Content_Block .subtitle {
+      color: #333;
+      text-align: left; }
+    .About_Me .Content_Block .description {
+      color: #555555;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: left;
+      max-width: 38vw; }
+    .About_Me .Content_Block .content_block_image {
+      flex: 1;
+      width: 20vw;
+      height: 20vw;
+      margin-right: 40px; }

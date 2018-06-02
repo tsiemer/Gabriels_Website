@@ -1,0 +1,70 @@
+$primary_title_color:#333;
+$secondary_title_color:whitesmoke;
+$main_hr_width:70px;
+$hr_color:#333;
+$secondary_hr_color:whitesmoke;
+
+body {
+    margin:0px;
+    padding:0px;
+  }
+  
+  .Main {
+    z-index:inherit 1010;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    // transform: translateY(-10px) scale(1.1);
+  }
+
+  .gabriel_Background {
+    background-image: url("../../images/gabriel_head_shot.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .blue_Background {
+    background-image: url("../../images/blue_background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .title {
+    display:inline-flex;
+    margin-top:80px;
+  }
+  
+  .big-title {
+    color:$primary_title_color;
+    padding:5px;
+    font-weight:bolder;
+  }
+
+  .secondary-big-title {
+    color:$secondary_title_color;
+    padding:5px;
+    font-weight:bolder;
+  }
+  
+  .main_hr {
+    width:$main_hr_width;
+    background-color:$hr_color;
+    color:$hr_color;
+    border:solid $hr_color 0.7px;
+    margin-top:22px;
+  }
+
+  .secondary_hr {
+    width:$main_hr_width;
+    background-color:$secondary_hr_color;
+    color:$secondary_hr_color;
+    border:solid $secondary_hr_color 0.7px;
+    margin-top:22px;
+  }
+  
