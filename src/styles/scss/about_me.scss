@@ -1,19 +1,42 @@
 $about_me_background_color:whitesmoke;
-
 $description_color:#555555;
 $description_size:15px;
-
 $subtitle_color:#333;
+
+
+@media screen and (max-width:600px) {
+    .Content_Block {
+        max-width: 80vw !important;
+        margin:0px 10vw 0px 10vw !important;
+        .content_blocks {
+            display:flex;
+            flex-wrap:wrap;
+        }
+        .info_section {
+            order:2;
+            width:80vw !important;
+
+            .description {
+                max-width:80vw !important;
+            }
+        }
+
+        .content_block_image{
+            flex:1;
+            width:80vw !important;
+            height:80vw !important;
+        }
+    }
+}
 
 .About_Me {
     background-color:$about_me_background_color;
-    min-height:650px;
+    height:auto;
     padding-bottom:50px;
-
 
     .Content_Block {
         max-width:60vw;
-        max-height:600px;
+        height:auto;
         margin:0px 20vw 0px 20vw;
         padding:15px 0px;
         display:flex;

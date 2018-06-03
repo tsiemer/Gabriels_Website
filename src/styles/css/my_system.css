@@ -5,7 +5,8 @@
   .My_System .my_system_list {
     width: 60vw;
     margin: 0px 20vw;
-    padding: 40px 0px; }
+    padding: 40px 0px;
+    color: white; }
     .My_System .my_system_list .system_list_text {
       font-size: 20px;
       line-height: 38px;

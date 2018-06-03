@@ -7,7 +7,7 @@ import '../styles/css/contact_me.css';
 class ContactMe extends Component {
     render () {
         return (
-            <div className="ContactMe">
+            <div className="ContactMe" id="contactMe">
                 <div className="title">
                     <hr className="main_hr"/>
                         <h2 className="big-title"> {this.props.sectionTitle} </h2>

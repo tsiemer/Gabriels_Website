@@ -5,7 +5,7 @@ import '../../styles/css/my_system.css';
 class MySystem extends Component {
     render () {
         return (
-            <div className="My_System">
+            <div className="My_System" id="mySystem">
                 <div className="title">
                     <hr className="secondary_hr"/>
                         <h2 className="secondary-big-title"> {this.props.sectionTitle} </h2>

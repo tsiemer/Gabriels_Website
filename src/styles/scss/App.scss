@@ -1,8 +1,10 @@
 $primary_title_color:#333;
-$secondary_title_color:whitesmoke;
+$secondary_title_color:white;
 $main_hr_width:70px;
 $hr_color:#333;
-$secondary_hr_color:whitesmoke;
+$secondary_hr_color:white;
+$description_color:#555555;
+$description_size:15px;
 
 body {
     margin:0px;
@@ -13,10 +15,8 @@ body {
     z-index:inherit 1010;
     width: 100vw;
     height: 100vh;
-    color: white;
     font-family: "Roboto", sans-serif;
     text-align: center;
-    // transform: translateY(-10px) scale(1.1);
   }
 
   .gabriel_Background {
@@ -25,6 +25,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transform: translateX(0px) scale(1.02);
   }
   
   .blue_Background {
@@ -33,6 +34,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transform: translateX(0px) scale(1.02);
   }
   
   .title {
@@ -67,4 +69,36 @@ body {
     border:solid $secondary_hr_color 0.7px;
     margin-top:22px;
   }
-  
+
+.Content_Block {
+    max-width:60vw;
+    height:auto;
+    margin:0px 20vw 0px 20vw;
+    padding:15px 0px;
+    display:flex;
+    flex-wrap:wrap;
+
+    .info_section {
+        flex:2;
+    }
+
+    .header_link {
+        font-size:24px;
+        line-height:35px;
+        text-align:left;
+    }
+
+    .description{
+        color:$description_color;
+        font-size:$description_size;
+        line-height: 22px;
+        text-align:left;
+        max-width:38vw;
+    }
+
+    .content_block_image{
+        flex:1;
+        width:20vw;
+        height:20vw;
+    }
+}

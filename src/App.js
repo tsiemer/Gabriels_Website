@@ -7,13 +7,14 @@ import MySystem from './components/My_System/My_System.js';
 import ContactMe from './components/Contact_Me.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './javascripts/smoothScroll.js';
 import './styles/css/App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="Main">
-        {/* <Navbar /> */}
+        <Navbar/>
         <div className="gabriel_Background">
           <Intro name="Gabriel Krizin"/>
           <MyThoughts sectionTitle="Get into my brain"/>
