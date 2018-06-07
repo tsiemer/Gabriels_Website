@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco');
+
 $contact_me_background_color: whitesmoke;
 $contact_me_paragraph_color: #697686;
 $contact_me_link_color: #4277C6;
@@ -17,5 +19,10 @@ $contact_me_link_color: #4277C6;
     .social_image {
         width:100px;
         height:auto;
+    }
+
+    .DrSuessQuote {
+        font-family: 'Sue Ellen Francisco', cursive;
+        font-size:50px;
     }
 }

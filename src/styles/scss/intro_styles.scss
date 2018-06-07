@@ -1,5 +1,5 @@
-// Font imports
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oxygen+Mono');
 $main-font: 'Roboto', sans-serif;
 
 // Color variables
@@ -24,6 +24,10 @@ $hr_color:#333;
 
     .big-intro {
         display:inline-flex;
+    }
+    
+    .Intro_Title {
+        font-family: 'Oxygen Mono', monospace;
     }
 
     .intro-big-text {

@@ -26,7 +26,7 @@ export default class Example extends React.Component {
 					<Collapse className="navbar_list" isOpen={this.state.collapsed}>
 						<ul className="navlink_list">
 							<p>
-								<a onClick={() => this.toggleNavbar()} href="#myThoughts">MY LATEST PIECES</a>
+								<a onClick={() => this.toggleNavbar()} href="#myThoughts">CURRENT THOUGHTS</a>
 							</p>
 							<hr className="navbar_hr"/>
 							<p>
@@ -34,7 +34,7 @@ export default class Example extends React.Component {
 							</p>
 							<hr className="navbar_hr"/>
 							<p>
-								<a onClick={() => this.toggleNavbar()} href="#myPassions">MY PASSION</a>
+								<a onClick={() => this.toggleNavbar()} href="#foodForThought">FOOD FOR THOUGHT</a>
 							</p>
 							<hr className="navbar_hr"/>
 							<p>

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco");
 .ContactMe {
   background-color: whitesmoke;
   padding: 0px 20px 40px 20px; }
@@ -8,3 +9,6 @@
   .ContactMe .social_image {
     width: 100px;
     height: auto; }
+  .ContactMe .DrSuessQuote {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 50px; }

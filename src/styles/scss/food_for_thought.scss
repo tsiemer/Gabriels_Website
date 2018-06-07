@@ -1,0 +1,84 @@
+$my_thoughts_section_color:#EEEEEE;
+$my_thoughts_section_height:600px;
+$description_color:#555555;
+$description_size:15px;
+$subtitle_color:#333;
+
+
+@media screen and (max-width:750px) {
+    .Content_Block {
+        max-width: 80vw !important;
+        margin:0px 10vw 0px 10vw !important;
+        .content_blocks {
+            display:flex;
+            flex-wrap:wrap;
+        }
+        .info_section {
+            order:2;
+            width:80vw !important;
+
+            .description {
+                max-width:80vw !important;
+            }
+        }
+
+        .content_block_image{
+            flex:1;
+            width:80vw !important;
+            height:80vw !important;
+            border-radius:30px;
+        }
+    }
+}
+
+
+.FoodForThought {
+    width:100vw;
+    min-height:$my_thoughts_section_height;
+    background-color: $my_thoughts_section_color;
+    padding-bottom:50px;
+
+    .food_for_thought_content {
+        display:flex;
+    }    
+    .Content_Block {
+        max-width:60vw;
+        height:auto;
+        margin:0px 20vw 0px 20vw;
+        padding:15px 0px;
+        display:flex;
+        flex-wrap:wrap;
+        
+
+        .info_section {
+            flex:2;
+            padding-right:20px;
+        }
+
+        .header_link {
+            font-size:24px;
+            line-height:35px;
+            text-align:left;
+        }
+
+        .subtitle {
+            color: $subtitle_color;
+            text-align:left;
+        }
+
+        .description{
+            color:$description_color;
+            font-size:$description_size;
+            line-height: 22px;
+            text-align:left;
+            max-width:38vw;
+        }
+
+        .content_block_image{
+            flex:1;
+            width:20vw;
+            height:20vw;
+            margin-right:40px;
+        }
+    }
+}
