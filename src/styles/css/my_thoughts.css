@@ -50,3 +50,12 @@
       width: 20vw;
       height: 20vw;
       margin-right: 40px; }
+
+.MyThoughtsEdit {
+  background-color: black; }
+  .MyThoughtsEdit .myThoughtsContainer {
+    max-width: 80vw;
+    height: 330px;
+    margin: 0px 10vw; }
+  .MyThoughtsEdit .myThoughtsEditForm {
+    padding: 15px 5vw; }

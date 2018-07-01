@@ -21,6 +21,7 @@ class MyThoughts extends Component {
                     <ContentBlock imageUrl="https://cdn-images-1.medium.com/max/600/1*jnqXL4Q-iW0qxodFDTxyFQ.jpeg" link="https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17" headerLinkTitle="Title" description="After getting my computer science degree 
                     from Duke in 2015, I joined Google as a software engineer and co-founded Dancing Pineapple. These first two years in tech and music were filled with a rapid succession of ups and downs, and plenty of hard-won lessons.
                     I know that these lessons would have been really useful for me after my own graduation, so I decided to take some time to share some actionable advice for those of you just starting out in the real world." />
+
                 </div>
             </div>
         );

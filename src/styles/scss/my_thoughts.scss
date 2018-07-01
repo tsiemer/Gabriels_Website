@@ -81,3 +81,15 @@ $subtitle_color:#333;
         }
     }
 }
+
+.MyThoughtsEdit{
+    background-color:black;
+    .myThoughtsContainer{
+        max-width:80vw;
+        height:330px;
+        margin:0px 10vw;
+    }
+    .myThoughtsEditForm{
+        padding:15px 5vw;
+    }
+}
