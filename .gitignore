@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-package-lock.json
+config
 
 # testing
 /coverage

@@ -1,5 +1,5 @@
 body {
-  background-color: lightgrey; }
+  /* background-color: lightgrey;*/ } 
   body .Dashboard input, body .Dashboard textarea, body .Dashboard label, body .Dashboard select {
     margin: 5px 10vw;
     width: 60vw; }
