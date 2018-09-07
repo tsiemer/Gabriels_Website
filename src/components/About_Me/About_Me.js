@@ -13,13 +13,8 @@ class AboutMe extends Component {
                 </div>
 
                 <div className="content_blocks">
-                    <ContentBlock imageUrl="https://www.jacksonhole.com/images/callouts/JHMRSummerActivityShootJuly-2016-600x600..jpg" link="https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17" headerLinkTitle="Mountain Biking" subtitle="Awesome way to see nature." description="After getting my computer science degree 
-                        from Duke in 2015, I joined Google as a software engineer and co-founded Dancing Pineapple. These first two years in tech and music were filled with a rapid succession of ups and downs, and plenty of hard-won lessons.
-                        I know that these lessons would have been really useful for me after my own graduation, so I decided to take some time to share some actionable advice for those of you just starting out in the real world." />
-
-                    <ContentBlock imageUrl="https://www.jacksonhole.com/images/callouts/JHMRSummerActivityShootJuly-2016-600x600..jpg" link="https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17" headerLinkTitle="Mountain Biking" subtitle="Awesome way to see nature." description="After getting my computer science degree 
-                        from Duke in 2015, I joined Google as a software engineer and co-founded Dancing Pineapple. These first two years in tech and music were filled with a rapid succession of ups and downs, and plenty of hard-won lessons.
-                        I know that these lessons would have been really useful for me after my own graduation, so I decided to take some time to share some actionable advice for those of you just starting out in the real world." />
+                    <ContentBlock img={false} description="If we have not sat down or spoken in some way, let's do it! I don't want to tell you who I am when I would love to have you make your judgments off of meeting with me. I look forward to hearing from you." />
+                    <ContentBlock img={true} altText="Kitten with Moustache" description="Something absolutely amazingly awesome." imageUrl="http://www.holidogtimes.com/wp-content/uploads/2016/03/cat-fur-markings-1.jpg?2e4e73&2e4e73" headerLinkTitle="Kitten wizz Mouztash"/>
                 </div>
             </div>
         );

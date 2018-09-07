@@ -20,8 +20,8 @@ ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <AppliedRoute exact path='/' component={App} /> 
+            <AppliedRoute path='/dashboard' component={Dashboard} />
             <Route path='/login' component={Login} />   
-            <Route path='/dashboard' component={Dashboard} />
         </Switch>
     </BrowserRouter>
 , document.getElementById('root'));

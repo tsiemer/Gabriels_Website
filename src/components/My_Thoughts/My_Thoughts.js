@@ -14,14 +14,19 @@ class MyThoughts extends Component {
                 </div>
 
                 <div className="content_blocks">
-                    <ContentBlock imageUrl="https://cdn-images-1.medium.com/max/600/1*jnqXL4Q-iW0qxodFDTxyFQ.jpeg" link="https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17" headerLinkTitle="Passing props between components" description="After getting my computer science degree 
-                    from Duke in 2015, I joined Google as a software engineer and co-founded Dancing Pineapple. These first two years in tech and music were filled with a rapid succession of ups and downs, and plenty of hard-won lessons.
-                    I know that these lessons would have been really useful for me after my own graduation, so I decided to take some time to share some actionable advice for those of you just starting out in the real world." />
+                    {/* Content block props: link, headerLinkTitle, img, description, altText, imageUrl */}
 
-                    <ContentBlock imageUrl="https://cdn-images-1.medium.com/max/600/1*jnqXL4Q-iW0qxodFDTxyFQ.jpeg" link="https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17" headerLinkTitle="Title" description="After getting my computer science degree 
-                    from Duke in 2015, I joined Google as a software engineer and co-founded Dancing Pineapple. These first two years in tech and music were filled with a rapid succession of ups and downs, and plenty of hard-won lessons.
-                    I know that these lessons would have been really useful for me after my own graduation, so I decided to take some time to share some actionable advice for those of you just starting out in the real world." />
+                    <ContentBlock img={false} description="Since this will be one of many posts about what I am thinking about,  I will make this somewhat short. 
+                    As I sit here and I am writing this, I am reflecting on my thoughts on how much I think about the culture I live. I have pressure from all directions. 
+                    I have to be an excellent father, a kind and understanding boyfriend that can offer the world, have a fit body, eat well (but not to healthy), what car do I drive, 
+                    clothes that I wear, and what is my title at said company. The list goes on and on. I know I am not speaking from a lonely island that nobody can relate with me. 
+                    I am also not looking for people to agree or disagree. I am stating this to say. I am going to try every day to make sure I make decisions off my own accord. I will be doing things I enjoy, 
+                    wearing clothes I like to wear and eat what I want to eat. I was thinking about the last time I sat down with my then 7-year-old son. I asked him. 'How can I do better as a dad?' literally 
+                    that is all I said. Then I sat there and waited. It took him a while to realize this was not a question that I was going to answer for him. He looked at me with loving eyes and said. 'When you 
+                    are around me, can you just be with me?' I asked him to clarify what this meant. He said to me. 'When you are with me, your also thinking about things, or looking at your phone.' This statement 
+                    killed me inside to know that my 7-year-old is just simply asking me for the time that is his. Not shared with the world. Until next time. ~ Gabriel Krizin" />
 
+                    <ContentBlock img={true} altText="Kitten with Moustache" description="Something absolutely amazingly awesome." imageUrl="https://welovecatsandkittens.com/wp-content/uploads/2014/01/perfect-moustache-kitten.jpg" headerLinkTitle="Kitten wizz Mouztash"/>
                 </div>
             </div>
         );

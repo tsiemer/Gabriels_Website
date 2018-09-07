@@ -7,25 +7,28 @@ $subtitle_color:#333;
 
 @media screen and (max-width:600px) {
     .Content_Block {
-        max-width: 80vw !important;
-        margin:0px 10vw 0px 10vw !important;
+        max-width: 80vw;
+        margin:0px 10vw 0px 10vw;
         .content_blocks {
             display:flex;
             flex-wrap:wrap;
         }
         .info_section {
             order:2;
-            width:80vw !important;
+            width:80vw;
 
             .description {
-                max-width:80vw !important;
+                max-width:80vw;
+
+                
             }
+            
         }
 
         .content_block_image{
             flex:1;
-            width:80vw !important;
-            height:80vw !important;
+            width:80vw;
+            height:80vw;
         }
     }
 }
@@ -71,6 +74,14 @@ $subtitle_color:#333;
             line-height: 22px;
             text-align:left;
             max-width:38vw;
+
+
+            &-noImg{
+                text-align:center;
+                line-height:28px;
+                font-size:18px;
+                padding:0px 0px 30px 0px;
+            }
         }
 
         .content_block_image{

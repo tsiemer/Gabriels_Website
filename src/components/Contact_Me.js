@@ -18,7 +18,7 @@ class ContactMe extends Component {
                 <div className="social_images">
                     <a className="contact_me_a" href={this.props.linkedin} target="_blank"> <img alt="linked logo" className="social_image" src={Linkedin}/> </a>
                     <a className="contact_me_a" href={this.props.twitter} target="_blank"> <img alt="twitter logo"  className="social_image" src={Twitter}/> </a>
-                    <a className="contact_me_a" href={this.props.gmail} target="_blank"> <img alt="gmail logo"  className="social_image" src={Gmail}/> </a>
+                    <a className="contact_me_a" href='https://mail.google.com/mail/?view=cm&fs=1&to=gkrizin@gmail.com&su=SUBJECT&body=BODY&bcc=gkrizin@gmail.com' target="_blank"> <img alt="gmail logo"  className="social_image" src={Gmail}/> </a>
                 </div>
             </div>
         );

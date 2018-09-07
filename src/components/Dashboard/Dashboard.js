@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../styles/css/dashboard.css';
+
 
 class Dashboard extends Component {
     constructor(props){
@@ -42,7 +41,8 @@ class Dashboard extends Component {
     render () {
         return (
             <div className="Dashboard">
-                <form onSubmit={this.handleSubmit} className="form-group addSection">
+                <h3 className="jumbotron">Add a new blog to one of your existing sections</h3>
+                <form onSubmit={this.handleSubmit} className="form-group" action="POST" method="/dashboard">
                     <label htmlFor="pickSection">Pick a section for your blog content.</label>
                     <select className="form-control" id="pickSection">
                         <option>Current Thoughts</option>
@@ -57,12 +57,6 @@ class Dashboard extends Component {
                     <input type="text" id="blogContent" name="blogContent" value={this.state.blogContent} placeholder="Blog Content" onChange={this.handleBlogContent} className="form-control"/>
                     <button type="submit" className="btn btn-primary">Submit</button>
                 </form>
-
-                <div className="explanation addSection">
-                    <p>
-                        If you don't want something added just leave that input blank. <span role="img" aria-label="jsx-a11y/accessible-emoji"> 😊 </span>
-                    </p>
-                </div>
             </div>
         );
     }
