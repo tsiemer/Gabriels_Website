@@ -15,6 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './javascripts/smoothScroll.js';
 import './styles/css/App.css';
 
+
 class App extends Component {
   render() {
     return (

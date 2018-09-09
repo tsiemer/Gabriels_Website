@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
+import StackGrid, {transitions} from "react-stack-grid";
+import sizeMe from 'react-sizeme';
 
 class FoodForThoughtContent extends Component {
+
     render () {
+        const {width} = this.props;
+        const { scaleDown } = transitions;
         return (
-            <div className="image-container">
-                <img alt="networking group of people" src={this.props.imageUrl} className="content_block_image"/>
+            <div className="pinterest-grid">
+                <div key="1"><img className="grid-img" src={this.props.imgUrl}/></div>
             </div>
         );
     }
 }
 
-export default FoodForThoughtContent;
+export default sizeMe()(FoodForThoughtContent);

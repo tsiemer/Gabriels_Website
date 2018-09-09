@@ -4,7 +4,7 @@ import { Collapse} from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/css/navbar.css';
 
-export default class Example extends React.Component {
+export default class Example extends Component {
 		constructor(props) {
 			super(props);
 			this.state = {
